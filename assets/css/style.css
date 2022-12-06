@@ -67,7 +67,7 @@ body{
 }
 
 @media screen and ( min-width: 678px ){
-    label, svg{
+    label, .icon-navbar{
         display: none;
     }
 
@@ -179,8 +179,10 @@ body{
     display: flex;
 }
 
-.icon-hability{
-    margin: 16px 22px;
+.icon-hability path{
+    stroke: var(--red);
+    padding: 1rem 1rem;
+    
 }
 
 .hability-1{
